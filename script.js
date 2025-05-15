@@ -18,7 +18,7 @@ botao.addEventListener('click',()=>{
         setTimeout(()=>{
             const confirma =true
             if(confirma==true){
-                window.location.href ='/pedrosas.html'
+                window.location.href ="/public/pedrosas.html"
             }
         },14000)
 

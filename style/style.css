@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+#meio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#meio button{
+    color: red;
+    border-color: red;
+    background-color: black;
+}
+.sumir{
+    display: none;
+}
+#pedrosa{
+    color: white;
+    font-size: 4vw;
+}
+#sozinho{
+    color: red;
+    font-size: 4vw;
+}
+.aparecer{
+    animation: aparecer 5s linear;
+}
+.desvanecer{
+    animation: sumir 4s linear;
+    
+}
+@keyframes aparecer {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+@keyframes sumir {
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 0%;
+    }
+    
+}

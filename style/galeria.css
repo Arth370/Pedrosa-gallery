@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+#conteudo{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 70vh ;
+}
+#fileira{
+    margin: 4em;
+    display: flex;
+    gap: 1em;
+}
+.foto{
+    width: 5vw;
+    height: 10vh;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.foto:hover{
+    width: 6vw;
+    height:11vh;
+    
+}
+
+.principio{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    height: 90vh;
+}
+.imgPrincipal{
+    display: flex;
+    align-self: center;
+    width: 40vw;
+    height: 80vh;
+
+}
+.nono{
+    display: none;
+    border: none;
+
+}

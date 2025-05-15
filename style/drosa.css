@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: black;    
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pedrosito{
+    margin: 0;
+    width: 60vw;
+    height: 100vh;
+    animation: aparecer 3s linear;
+}
+#textos{
+    margin-right: 4em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 1em;
+}
+#textos h1{
+    cursor: pointer;
+    font-size: 2em;
+    transition: 0.5s;
+    animation: chegar 8s linear;
+}
+#title{
+    color: white;
+    margin: 4em;
+    animation: chegar 8s linear;
+    display: flex;
+    flex-direction: column;
+}
+#textos h1:hover{
+    font-size: 2.5em;
+    color: rgb(253, 72, 72);
+}
+@keyframes aparecer {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+@keyframes chegar{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+#girar{
+    color: red;
+    display: flex;
+    margin: 1em;
+    text-decoration:underline;
+   
+}
